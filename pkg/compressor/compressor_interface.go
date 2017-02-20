@@ -4,5 +4,4 @@ package compressor
 // when moving data to a source destination
 type Compression interface {
 	Encode(source string, target string) error
-	Decode(source string, target string) error
 }
